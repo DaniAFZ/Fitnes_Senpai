@@ -1,0 +1,153 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+/* General */
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+/* Header */
+header img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+header,
+nav {
+    position: fixed;
+}
+
+
+/* Main Content */
+main {
+    margin: 4em 0;
+}
+
+
+/* Navigation */
+nav {
+    margin-left: 450px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 1.25em;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav li a:hover,
+nav li a.active {
+    background: #fff;
+    color: #000;
+    border-radius: 25px;
+}
+
+/* Hero Image */
+.hero-image {
+    display: block;
+    max-width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    object-position: 0% 20%;
+}
+
+.hero-image h1 {
+    position: absolute;
+    text-shadow: 2px 2px 5px #000;
+    top: 54%;
+    left: 9%;
+    font-size: 3em;
+}
+
+.hero-button button {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 69%;
+    left: 9%;
+    background-color: #c7c5c1;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 1.05em;
+}
+
+.hero-button button:hover {
+    background-color: #fff;
+}
+
+/* Nutrition */
+.nutrition-title {
+    text-align: center;
+}
+
+.nutrition-section {
+    display: flex;
+}
+
+.nutrition-item {
+    margin: 1em;
+}
+
+.nutrition-item img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+/* Join Section */
+.join-section {
+    margin: 2em 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.join-section h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.join-button {
+    margin-top: 1em;
+}
+
+.join-button button {
+    background-color: #c7c5c1;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-size: 1.05em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 10px;
+}

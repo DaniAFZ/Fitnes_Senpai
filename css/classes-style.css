@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body{
+    background-color: black;
+}
+header img{
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+nav {
+    float: right;
+    margin-bottom: 5%;
+}
+nav li{
+    display: inline-block;
+    font-size: 1.35em; 
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    margin-right: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+nav li a:hover,
+nav li a.active {
+    background: #fff;
+    border-radius: 25px;
+    color: #000;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+    opacity: 90%;
+}
+.Yoga{
+    color: white;
+    text-align: left;
+    margin-left: 23%;
+    
+}
+.desc1{
+    color: white;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 65%;
+}
+.Workout{
+    color: white;
+    text-align: center;
+}
+.desc2{
+    color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.Title{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 3em;
+}
+.facility{
+    font-family: 'Poppins', sans-serif;
+}
+.solid {
+    border-top: 3px solid white;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-style: groove;
+  }
+.classes{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.classes h2, p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.yoga img{
+    width: 210px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.yoga{
+    text-align: center;
+}
+.yoga-font h2{
+    margin-right: 45%;
+}
+.workout img {
+    width: 210px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+.workout{
+    text-align: center;
+}
+.workout-font h2{
+    margin-left: 50px;
+    margin-right: 35px;
+}
+
+.swim img {
+    width: 210px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.swim{
+    text-align: center;
+}
+.swim-font h2{
+    margin-left: 30px;
+}
+.footer{
+    text-align: center;
+}
